@@ -8,7 +8,7 @@ export interface Vehicle {
 
 export interface VehicleMaintenance {
   id: string;
-  vehicleId: string;
+  vehicle_id: string;
   description: string;
 }
 

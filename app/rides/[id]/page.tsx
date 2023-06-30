@@ -1,5 +1,6 @@
 import { getVehicleMaintenance } from '@/app/services/maintenance';
 import { getVehicle } from '@/app/services/vehicles';
+import { MaintenanceLog } from '@/app/components/MaintenanceLog';
 
 interface RidesPageProps {
   params: { id: string };
@@ -15,7 +16,7 @@ export default async function RidesPage(props: RidesPageProps) {
   return (
     <div>
       <pre>{JSON.stringify(vehicle)}</pre>
-      <pre>{JSON.stringify(vehicleMaintenance)}</pre>
+      <MaintenanceLog logs={vehicleMaintenance} />
     </div>
   );
 }
