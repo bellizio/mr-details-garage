@@ -1,0 +1,76 @@
+{
+  "1": [
+    {
+      "id": "1",
+      "vehicle_id": "1",
+      "mileage": "120,000",
+      "description": "oil change"
+    },
+    {
+      "id": "2",
+      "vehicle_id": "1",
+      "mileage": "126,000",
+      "description": "pcv valve replacement"
+    },
+    {
+      "id": "3",
+      "vehicle_id": "1",
+      "mileage": "127,000",
+      "description": "alignment"
+    }
+  ],
+  "2": [
+    {
+      "id": "1",
+      "vehicle_id": "2",
+      "hours": "20",
+      "description": "oil and filter change"
+    },
+    {
+      "id": "2",
+      "vehicle_id": "2",
+      "hours": "34",
+      "description": "new tires"
+    }
+  ],
+  "3": [
+    {
+      "id": "1",
+      "vehicle_id": "3",
+      "mileage": "10,000",
+      "description": "air filter change"
+    },
+    {
+      "id": "2",
+      "vehicle_id": "3",
+      "mileage": "13,000",
+      "description": "new chain"
+    },
+    {
+      "id": "3",
+      "vehicle_id": "3",
+      "mileage": "15,000",
+      "description": "new tires"
+    }
+  ],
+  "4": [
+    {
+      "id": "1",
+      "vehicle_id": "4",
+      "mileage": "6",
+      "description": "oil change"
+    },
+    {
+      "id": "2",
+      "vehicle_id": "4",
+      "mileage": "12",
+      "description": "air filter change"
+    },
+    {
+      "id": "3",
+      "vehicle_id": "4",
+      "mileage": "20",
+      "description": "new tires"
+    }
+  ]
+}

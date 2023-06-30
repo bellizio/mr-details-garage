@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "year": "2003",
+    "make": "Toyota",
+    "model": "Tacoma",
+    "type": "Car/Truck"
+  },
+  {
+    "id": "2",
+    "year": "1984",
+    "make": "Honda",
+    "model": "XR500R",
+    "type": "Motorcycle"
+  },
+  {
+    "id": "3",
+    "year": "1975",
+    "make": "Honda",
+    "model": "CB400F",
+    "type": "Motorcycle"
+  },
+  {
+    "id": "4",
+    "year": "2023",
+    "make": "Gas Gas",
+    "model": "EC300",
+    "type": "Motorcycle"
+  }
+]
