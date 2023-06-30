@@ -6,17 +6,20 @@ export interface Vehicle {
   type: string;
 }
 
-export interface VehicleMaintenance {
+interface VehicleMaintenanceBasics {
   id: string;
   vehicle_id: string;
   description: string;
 }
 
-export interface CarTruckMaintenance extends VehicleMaintenance {
+interface VehicleMaintenanceWithMileage extends VehicleMaintenanceBasics {
   mileage: string;
 }
 
-export interface MotorcycleMaintenance extends VehicleMaintenance {
-  mileage?: string;
-  hours?: string;
+interface VehicleMaintenanceWithHours extends VehicleMaintenanceBasics {
+  hours: string;
 }
+
+export type VehicleMaintenance =
+  | VehicleMaintenanceWithMileage
+  | VehicleMaintenanceWithHours;

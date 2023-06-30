@@ -1,6 +1,6 @@
 import { getVehicleMaintenance } from '@/app/services/maintenance';
 import { getVehicle } from '@/app/services/vehicles';
-import { MaintenanceLog } from '@/app/components/MaintenanceLog';
+import { MaintenanceLog } from '@/app/components';
 
 interface RidesPageProps {
   params: { id: string };

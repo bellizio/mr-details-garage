@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Header, VehiclesList } from './components';
+import { Header, VehiclesList } from '@/app/components';
 
 export default function HomePage() {
   return (
